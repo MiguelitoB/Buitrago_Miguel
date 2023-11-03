@@ -39,7 +39,7 @@ function App() {
         </form>
       }
       { show ?
-        <Card nombre={usuario.nombre}  edad={usuario.deporteFavorito}  />
+        <Card nombre={usuario.nombre}  deporteFavorito={usuario.deporteFavorito}  />
         :
             null
       }
